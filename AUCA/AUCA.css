@@ -1,0 +1,267 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    margin-top: -1%;
+    background: white;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+.topnav{
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F6F8;
+}
+.topnav ul{
+    display: flex;
+    list-style: none;
+}
+.topnav a{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: blue;
+    padding: 10px 20px;
+}
+.midnav{
+    height: 30vh;
+    display: flex;
+    list-style: none;
+    background: white;
+}
+.midnav ul{
+    list-style: none;
+    display: flex;
+    padding-top: 50px;
+
+}
+.midnav a{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: blue;
+    padding: 5px 20px;
+    padding-top: 2%;
+    
+}
+.gline{
+    width: 100%;
+    margin: 10px 0;
+    height: 13px;
+    background: #DD9933;
+}
+.undernav0{
+    background: #00447B;
+    margin-top: -16px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    display: flex;
+
+}
+.undernav0 ul{
+    list-style: none;
+    display: flex;
+}
+.undernav0 li{
+    padding: 10px 20px;
+
+}
+.undernav0 a{
+    color: white;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background:#00447B;
+    z-index: 1;
+
+}
+.drop-trigger:hover .dropdown{
+    display: block;
+    
+} 
+.dropdown a{
+    display: grid;
+    padding-top: 10%;
+} 
+.search{
+    background: #00294A;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.search i{
+    padding: 30%;
+    color: #F4F6F8;
+}
+.section{
+    background: #F4F6F8;
+    margin-left: 0%;
+    margin-left: 0%;
+}
+.overflow{
+    overflow: hidden;
+    padding-top: 0.5%;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.flow{
+    justify-content: center;
+    height: 70vh;
+    width: 90vw;
+    background: #182B4F;
+    color: white;
+}
+.flow1{
+   padding-top: 15%; 
+   padding-left: 4%;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.b1flow{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.flow1 p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    /* padding-left: 10%; */
+    padding-right: 10%;
+}
+.b2flow{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #00447B;
+    padding: 14px 30px;
+    margin-top: 5%;
+    color: white;
+    border-bottom-style: none;
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+.div3 a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: underline yellow;
+    text-underline-offset: 30px;
+}
+.div31{
+    width: 28.5vw;
+    height: 25vh;
+    background-image:url('https://auca.ac.rw/wp-content/uploads/2024/12/apply-365x240.jpg');
+    padding-top: 5%;
+    margin-left: -3.5%;
+}
+.div31 :hover{
+    text-decoration: underline red;
+    text-underline-offset: 30px;
+}
+.div32{
+    width: 28.5vw;
+    height: 25vh;
+    background-image:url('https://auca.ac.rw/wp-content/uploads/2022/05/Campuses-365x240.png');
+    padding-top: 5%;
+}
+.div33{
+    width: 28.5vw;
+    height: 25vh;
+    background-image:url('https://auca.ac.rw/wp-content/uploads/2021/07/Library-1270x500-1-365x240.jpg');
+    padding-top: 5%;
+}
+.mid{
+    display: flex;
+    margin-top: 4%;
+}
+.midimg{
+    width: 58.5vw;
+    background: #FFFFFF;
+    margin-left: -2%;
+    padding: 2%;
+    color: #00447B;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.midimg img{
+    width: 58vw;
+    height: 45vh;
+}
+.LatestNews{
+    width: 58.5vw;
+    background-color: #FFFFFF;
+    padding: 2%;
+    margin-left: -2%;
+    margin-top: 2%;
+    color: #00447B;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.glallery{
+    width: 58.5vw;
+    background-color: #FFFFFF;
+    padding: 2%;
+    margin-left: -2%;
+    margin-top: 2%;
+    color: #00447B;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.grids{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    margin-right: -2%;
+}
+
+.grids img{
+    height: 250px;
+    width: 370px;
+}
+
+.mid1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    padding: 2%;
+    margin-left: 14%;
+    margin-right: 7.5%;
+    background: #A41D31;
+}
+.newline1{
+    margin: -3% -2.5%;
+    height: 5px;
+    background: orange;
+    width: 28.5vw;
+    
+}
+.newline2{
+    width: 100%;
+    margin: 10px 0;
+    height: 1px;
+    background: #F4F6F8;
+}
+.mid2{
+    margin-top: 5%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    padding: 2%;
+    margin-left: 14%;
+    margin-right: 7.5%;
+    background: #1B3058;
+}
+.mid2pra{
+    background-color: #184C7F;
+    padding: 5%;
+    padding-top: 1%;
+    border-radius: 50px 0 50px 0px;
+}
+.footer{
+    display: flex;
+    background-color: #00447B;
+    justify-content: space-between;
+    color: white;
+    padding: 5%;
+    padding-top: 2%;
+    margin-top: -1%;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
