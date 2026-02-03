@@ -156,7 +156,7 @@
     margin-left: -3.5%;
 }
 .div31 :hover{
-    text-decoration: underline red;
+    text-decoration: underline orange;
     text-underline-offset: 30px;
 }
 .div32{
@@ -165,11 +165,19 @@
     background-image:url('https://auca.ac.rw/wp-content/uploads/2022/05/Campuses-365x240.png');
     padding-top: 5%;
 }
+.div32 :hover{
+    text-decoration: underline orange;
+    text-underline-offset: 30px;
+}
 .div33{
     width: 28.5vw;
     height: 25vh;
     background-image:url('https://auca.ac.rw/wp-content/uploads/2021/07/Library-1270x500-1-365x240.jpg');
     padding-top: 5%;
+}
+.div33 :hover{
+    text-decoration: underline orange;
+    text-underline-offset: 30px;
 }
 .mid{
     display: flex;
@@ -205,6 +213,20 @@
     margin-top: 2%;
     color: #00447B;
     font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.glallery2{
+    width: 58.5vw;
+    background-color: #FFFFFF;
+    color: #00447B;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin-left: -2%;
+    padding: 2%;
+    margin-top: 2%;
+}
+.glallery2 img{
+    height: 250px;
+    width: 370px;
 }
 
 .grids{
@@ -249,6 +271,26 @@
     margin-right: 7.5%;
     background: #1B3058;
 }
+
+.mid3{
+    margin-top: 5%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    padding: 2%;
+    margin-left: 14%;
+    margin-right: 7.5%;
+    background: #FFFFFF;
+}
+
+.mid3 h3{
+    color: #00447B;
+    font-size: 25px;
+}
+
+.mid3 img{
+    width: 370px;
+}
+
 .mid2pra{
     background-color: #184C7F;
     padding: 5%;
