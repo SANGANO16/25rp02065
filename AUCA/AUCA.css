@@ -9,6 +9,11 @@
     margin-right: 0%;
     
 }
+
+.header a:hover{
+    color: rgba(236, 80, 7, 0.87);
+}
+
 .topnav{
     padding: 0%;
     display: flex;
